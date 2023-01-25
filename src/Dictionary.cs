@@ -7,12 +7,18 @@ public class Dict
         Words = new List<string>();
     }
 
+    public Dict(string path)
+    {
+        Words = wordsList(path);
+    }
+
     public IList<string> Words { get; set; }
 
-    public void uploadWords(string path)
+    public IList<string> wordsList(string path)
     {
         string[] lines = System.IO.File.ReadAllLines(path);
-        Words = lines.ToList<string>();
+        // Words = lines.ToList<string>();
+        return lines.ToList<string>();
     }
 
     /* Both updates the 'Words' List and returns this new list
