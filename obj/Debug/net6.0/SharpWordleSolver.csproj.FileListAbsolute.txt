@@ -1,0 +1,15 @@
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\bin\Debug\net6.0\SharpWordleSolver.exe
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\bin\Debug\net6.0\SharpWordleSolver.deps.json
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\bin\Debug\net6.0\SharpWordleSolver.runtimeconfig.json
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\bin\Debug\net6.0\SharpWordleSolver.dll
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\bin\Debug\net6.0\SharpWordleSolver.pdb
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.csproj.AssemblyReference.cache
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.AssemblyInfoInputs.cache
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.AssemblyInfo.cs
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.csproj.CoreCompileInputs.cache
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.dll
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\refint\SharpWordleSolver.dll
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.pdb
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\SharpWordleSolver.genruntimeconfig.cache
+C:\Users\mizui\CSWorkspace\SharpWordleSolver\obj\Debug\net6.0\ref\SharpWordleSolver.dll
