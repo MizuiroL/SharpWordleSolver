@@ -44,11 +44,11 @@ public class RegexBuilder
             switch(Code[i])
             {
                 case 0:
-                    RegexList.Add(n > 0 ? ($"[{c}]{{{n}}}") : ($"^[^{c}]+$")); // Word ha esattamente n occorrenze di c
+                    RegexList.Add(n > 0 ? exactlyNOccurrencesRegex(n, c) : ($"^[^{c}]+$")); // Word ha esattamente n occorrenze di c
                     //^(?!.*l).*$
                     break;
                 case 1:
-                    RegexList.Add($"[{c}]{{{n},5}}"); // Word ha almeno n occorrenze di c
+                    RegexList.Add(atLeastNOccurrencesRegex(n, c)); // Word ha almeno n occorrenze di c
                     break;
             }
         }
@@ -65,6 +65,26 @@ public class RegexBuilder
             }
         }
         return count;
+    }
+
+    public string exactlyNOccurrencesRegex(int n, char c)
+    {
+        string repeat = "";
+        for (int i = 0; i < n; i++)
+        {
+            repeat += $"[^{c}]*[{c}]";
+        }
+        return $"^{repeat}[^{c}]*$";
+    }
+
+    public string atLeastNOccurrencesRegex(int n, char c)
+    {
+        string repeat = "";
+        for (int i = 0; i < n; i++)
+        {
+            repeat += $".*[{c}]";
+        }
+        return $"^{repeat}.*$";
     }
 
 }
