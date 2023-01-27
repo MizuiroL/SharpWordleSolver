@@ -36,4 +36,17 @@ public class Dict
         Words = newList;
         return newList;
     }
+
+    public int count()
+    {
+        return Words.Count;
+    }
+
+    public void print()
+    {
+        foreach(string word in Words)
+        {
+            Console.WriteLine(word);
+        }
+    }
 }
