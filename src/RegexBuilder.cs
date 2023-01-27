@@ -44,7 +44,8 @@ public class RegexBuilder
             switch(Code[i])
             {
                 case 0:
-                    RegexList.Add($"[{c}]{{{n}}}"); // Word ha esattamente n occorrenze di c
+                    RegexList.Add(n > 0 ? ($"[{c}]{{{n}}}") : ($"^[^{c}]+$")); // Word ha esattamente n occorrenze di c
+                    //^(?!.*l).*$
                     break;
                 case 1:
                     RegexList.Add($"[{c}]{{{n},5}}"); // Word ha almeno n occorrenze di c
